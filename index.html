@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Find Meal For Your Ingredients</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Ta'bga ko'ra ovqat qidiruvi bo'limi</h2>
+          <blockquote>
+            Asalning yaroqlilik muddati yo'q. Eng qadimgi asal idishi 1922 yilda
+            Howard Carter tomonidan Misr fir'avni Tutanxamonning qabridan
+            topilgan. Olimlar uni o'rganib chiqib, iste'molga yaroqli, deb
+            topishdi.. <br />
+            <cite>- Sharof Mukhtorov</cite>
+          </blockquote>
+
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Ko'nglingiz nimani tusayapti?"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <div class="meal-result">
+          <h2 class="title">Sizning Qidiruv Natijalaringiz:</h2>
+          <div id="meal">
+            <!-- <div class="meal-item">
+            <div class="meal-img">
+              <img src="./1.jpg" alt="meal-img">
+            </div>
+            <div class="meal-name">
+              <h3>Apple</h3>
+              <a href="#" class="recipe-btn">Get Recipe</a>
+            </div>
+          </div> -->
+          </div>
+        </div>
+        <div class="meal-details">
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            &times;
+          </button>
+          <div class="meal-details-content">
+            <!-- <h2 class="recipe-title">Meals Name Here</h2>
+          <p class="recipe-category">Category Name</p>
+          <div class="recipe-instruct">
+            <h3>Instructiobs:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis aut impedit quam molestias consequatur. Veniam voluptatibus ab, sapiente labore quo distinctio eveniet? A facere natus, autem ab aliquid qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, qui eos quaerat ad culpa quam sequi. Aspernatur beatae minima non?</p>
+          </div>
+          <div class="recipe-meal-img">
+            <img src="./1.jpg" alt="">
+          </div>
+          <div class="recipe-link">
+            <a href="#" target="_blank">Watch Video</a>
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
